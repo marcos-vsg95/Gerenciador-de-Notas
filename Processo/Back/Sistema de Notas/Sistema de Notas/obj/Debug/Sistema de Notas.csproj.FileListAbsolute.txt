@@ -1,0 +1,7 @@
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\bin\Debug\Sistema de Notas.exe.config
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\bin\Debug\Sistema de Notas.exe
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\bin\Debug\Sistema de Notas.pdb
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\obj\Debug\Sistema de Notas.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\obj\Debug\Sistema de Notas.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\obj\Debug\Sistema de Notas.exe
+C:\Users\ACER\source\repos\Sistema de Notas\Sistema de Notas\obj\Debug\Sistema de Notas.pdb

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="conteiner">
+        <header>
+            <h1>Gerenciador de Notas</h1>
+            <a href="#">Novo Aluno +</a>
+        </header>
+        <main>
+            <section id="alunos-container">
+                <h2>Alunos</h2>
+
+                <table>
+                    <caption>Tabela de Alunos</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Aluno</th>
+                            <th>Disciplina 1</th>
+                            <th>Disciplina 2</th>
+                            <th>Disciplina 3</th>
+                            <th>Disciplina 4</th>
+                            <th>Disciplina 5</th>
+                            <th>Média</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>João</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>8.0</td>
+                        </tr>
+
+                        <tr>
+                            <td>Maria</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>8.0</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th>Médias</th>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>8.0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <hr>
+            <section id="stats">
+                <h2>Estatísticas da Turma</h2>
+
+                <div class="stats-cards">
+                    <div class="card">
+                        <h3>Disciplina 1</h3>
+                        <p>7.0</p>
+                    </div>
+                    <div class="card">
+                        <h3>Disciplina 2</h3>
+                        <p>8.1</p>
+                    </div>
+                    <div class="card">
+                        <h3>Disciplina 3</h3>
+                        <p>6.4</p>
+                    </div>
+                    <div class="card">
+                        <h3>Disciplina 4</h3>
+                        <p>8.8</p>
+                    </div>
+                    <div class="card">
+                        <h3>Disciplina 5</h3>
+                        <p>9.0</p>
+                    </div>
+                </div>
+            </section>
+            <section id="alertas">
+                <h2>Alertas</h2>
+
+                <div class="alert-card">
+                    <h3>Alunos acima da média da turma</h3>
+                    <ul>
+                        <li>Maria</li>
+                        <li>João</li>
+                    </ul>
+                </div>
+
+                <div class="alert-card">
+                    <h3>Frequência abaixo de 75%</h3>
+                    <ul>
+                        <li>José</li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>

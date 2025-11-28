@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+	--cor0: #3B82F6;
+	--cor1: #F3F4F6;
+	--cor2: #E5E7EB;
+}
+
+body{
+    height: 100vh;
+    width: 100wv;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteiner{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+}
+
+header{
+    display: flex;
+    background-color: var(--cor0);
+    align-content: center;
+
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    grid-area: 1 / 1 / 2 / -1;
+    padding: 30px;
+}
+
+header > h1{
+    color: var(--cor2);
+    font-size: 1.8em;
+}
+
+header > a{
+    color: var(--cor2);
+    background-color: #207c20;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    
+    padding: 10px;
+
+    font-size: 1.1em;
+    font-weight: bolder;
+
+    text-decoration: none;
+}
+
+header > a:hover{
+    background-color: #57c957;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+main{
+    background-color: var(--cor1);
+    grid-area: 2 / 1 / -1 / -1;
+
+    padding: 15px;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+caption {
+    caption-side: top;
+    padding: 12px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid var(--cor2);
+    padding: 15px;
+    text-align: center;
+}
+
+thead {
+    background: var(--cor0);
+    color: white;
+}
+
+tfoot {
+    background:var (--cor1);
+    font-weight: bold;
+}
+
+#stats {
+    margin-top: 30px;
+}
+
+.stats-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border: 1px solid var(--cor2);
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 4px #0002;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+#alertas {
+    margin-top: 40px;
+}
+
+.alert-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--cor2);
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px #0002;
+}
+
+.alert-card h3 {
+    margin-bottom: 10px;
+}
+
+.alert-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.alert-card li {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+
